@@ -1,0 +1,5 @@
+flume-ng help
+
+flume-ng version
+
+flume-ng agent -n TwitterAgent -c conf -f C:/apache-flume-1.6.0-bin/conf/twitter.conf -property flume.root.logger=DEBUG,console
